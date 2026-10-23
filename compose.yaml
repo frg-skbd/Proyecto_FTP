@@ -1,0 +1,23 @@
+services:
+  ftp:
+    build:
+      context: ./ftp
+    container_name: Proyecto_FTP
+    restart: unless-stopped
+    ports:
+      - "21:21"
+      - "21100-21110:21100-21110"
+    volumes:
+      - ./data/compartido:/var/ftp:ro
+    networks:
+      ftp_lab:
+        ipv4_address: 192.168.10.10
+
+networks:
+  ftp_lab:
+    name: proyecto-ftp-red
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.10.0/24
+          gateway: 192.168.10.1
