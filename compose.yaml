@@ -15,6 +15,20 @@ services:
       ftp_lab:
         ipv4_address: 192.168.10.10
 
+  filezilla-web:
+    image: jlesage/filezilla:latest
+    container_name: Proyecto_FTP_Web
+    restart: unless-stopped
+    ports:
+      - "5800:5800"
+    volumes:
+      - ./web/configuracion-web:/config:rw
+      - ./web/archivos:/storage:rw
+    networks:
+      - ftp_lab
+    depends_on:
+      - ftp
+
 networks:
   ftp_lab:
     name: proyecto-ftp-red
