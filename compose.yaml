@@ -10,6 +10,7 @@ services:
     volumes:
       - ./data/compartido:/var/ftp:ro
       - ./data/usuarios/alumno1:/home/alumno1/archivos
+      - ./data/usuarios/alumno2:/home/alumno2/archivos
     networks:
       ftp_lab:
         ipv4_address: 192.168.10.10

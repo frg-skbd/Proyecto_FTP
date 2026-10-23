@@ -1,2 +1,3 @@
 usuario1: AsirFTP_2026!
+usuario2: 244466666
 root:           
