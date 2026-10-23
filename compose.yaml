@@ -9,6 +9,7 @@ services:
       - "21100-21110:21100-21110"
     volumes:
       - ./data/compartido:/var/ftp:ro
+      - ./data/usuarios/alumno1:/home/alumno1/archivos
     networks:
       ftp_lab:
         ipv4_address: 192.168.10.10
