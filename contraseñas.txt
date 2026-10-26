@@ -1,3 +1,3 @@
-alumno1: AsirFTP_2026!
-alumno2: 244466666
+alumno1: 1234
+alumno2: 12345
 Master Password Filezilla: Zayas*2627

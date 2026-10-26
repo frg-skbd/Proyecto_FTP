@@ -23,14 +23,90 @@
 # Registers:
 
 # File marks:
-'0  1  0  /storage/prueba-alumno2.txt
-|4,48,1,0,1792755708,"/storage/prueba-alumno2.txt"
+'0  1  0  /storage/sss
+|4,48,1,0,1793007593,"/storage/sss"
+'1  1  48  /tmp/fz3temp-2/sss
+|4,49,1,48,1793007573,"/tmp/fz3temp-2/sss"
+'2  1  68  /tmp/fz3temp-2/aaa
+|4,50,1,68,1793007528,"/tmp/fz3temp-2/aaa"
+'3  1  69  /tmp/fz3temp-2/aaa
+|4,51,1,69,1793007490,"/tmp/fz3temp-2/aaa"
+'4  1  0  /storage/prueba-alumno2.txt
+|4,52,1,0,1792755708,"/storage/prueba-alumno2.txt"
 
 # Jumplist (newest first):
+-'  1  0  /storage/sss
+|4,39,1,0,1793007593,"/storage/sss"
+-'  1  48  /tmp/fz3temp-2/sss
+|4,39,1,48,1793007573,"/tmp/fz3temp-2/sss"
+-'  1  48  /tmp/fz3temp-2/sss
+|4,39,1,48,1793007573,"/tmp/fz3temp-2/sss"
+-'  1  68  /tmp/fz3temp-2/aaa
+|4,39,1,68,1793007528,"/tmp/fz3temp-2/aaa"
+-'  1  68  /tmp/fz3temp-2/aaa
+|4,39,1,68,1793007528,"/tmp/fz3temp-2/aaa"
+-'  1  68  /tmp/fz3temp-2/aaa
+|4,39,1,68,1793007528,"/tmp/fz3temp-2/aaa"
+-'  1  68  /tmp/fz3temp-2/aaa
+|4,39,1,68,1793007528,"/tmp/fz3temp-2/aaa"
+-'  1  69  /tmp/fz3temp-2/aaa
+|4,39,1,69,1793007490,"/tmp/fz3temp-2/aaa"
+-'  1  69  /tmp/fz3temp-2/aaa
+|4,39,1,69,1793007490,"/tmp/fz3temp-2/aaa"
+-'  1  69  /tmp/fz3temp-2/aaa
+|4,39,1,69,1793007490,"/tmp/fz3temp-2/aaa"
+-'  1  69  /tmp/fz3temp-2/aaa
+|4,39,1,69,1793007490,"/tmp/fz3temp-2/aaa"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
+-'  1  0  /storage/prueba-alumno2.txt
+|4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
 -'  1  0  /storage/prueba-alumno2.txt
 |4,39,1,0,1792755708,"/storage/prueba-alumno2.txt"
 
 # History of marks within files (newest to oldest):
+
+> /storage/sss
+	*	1793007591	0
+	"	1	0
+
+> /tmp/fz3temp-2/sss
+	*	1793007565	0
+	"	1	48
+	.	1	47
+	+	1	47
+
+> /tmp/fz3temp-2/aaa
+	*	1793007526	0
+	"	1	68
+	.	1	68
+	+	1	68
 
 > /storage/prueba-alumno2.txt
 	"	1	0
