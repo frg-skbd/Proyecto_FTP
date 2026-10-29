@@ -9,8 +9,9 @@ services:
       - "21100-21110:21100-21110"
     volumes:
       - ./data/compartido:/var/ftp:ro
-      - ./data/usuarios/alumno1:/home/alumno1/archivos
-      - ./data/usuarios/alumno2:/home/alumno2/archivos
+      - ftp_alumno1:/home/alumno1/archivos
+      - ftp_alumno2:/home/alumno2/archivos
+      - ftp_alumno3:/home/alumno3/archivos
     networks:
       ftp_lab:
         ipv4_address: 192.168.10.10
@@ -22,12 +23,28 @@ services:
     ports:
       - "5800:5800"
     volumes:
-      - ./web/configuracion-web:/config:rw
-      - ./web/archivos:/storage:rw
+      - filezilla_config:/config:rw
+      - filezilla_storage:/storage:rw
     networks:
       - ftp_lab
     depends_on:
       - ftp
+
+volumes:
+  filezilla_config:
+    name: proyecto_ftp_filezilla_config
+
+  filezilla_storage:
+    name: proyecto_ftp_filezilla_storage
+
+  ftp_alumno1:
+    name: proyecto_ftp_alumno1
+
+  ftp_alumno2:
+    name: proyecto_ftp_alumno2
+
+  ftp_alumno3:
+    name: proyecto_ftp_alumno3
 
 networks:
   ftp_lab:

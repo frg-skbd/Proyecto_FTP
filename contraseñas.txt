@@ -1,3 +1,4 @@
 alumno1: 1234
-alumno2: 12345
+alumno2: 1234
+alumno3: 1234
 Master Password Filezilla: Zayas*2627

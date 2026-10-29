@@ -1,3 +1,0 @@
-logrotate state -- version 2
-"/config/log/nginx/access.log" 2026-10-23-11:0:0
-"/config/log/nginx/error.log" 2026-10-23-11:0:0
