@@ -12,6 +12,7 @@ services:
       - ftp_alumno1:/home/alumno1/archivos
       - ftp_alumno2:/home/alumno2/archivos
       - ftp_alumno3:/home/alumno3/archivos
+      - ./ftp/certs:/etc/ssl/private:ro
     networks:
       ftp_lab:
         ipv4_address: 192.168.10.10
