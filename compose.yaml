@@ -31,6 +31,17 @@ services:
     depends_on:
       - ftp
 
+  filestash:
+    image: machines/filestash:latest
+    container_name: Proyecto_FTP_Filestash
+    restart: unless-stopped
+    ports:
+      - "8334:8334"
+    networks:
+      - ftp_lab
+    depends_on:
+      - ftp
+
 volumes:
   filezilla_config:
     name: proyecto_ftp_filezilla_config
